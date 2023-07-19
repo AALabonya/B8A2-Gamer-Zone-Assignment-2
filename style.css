@@ -296,7 +296,9 @@ nav{
 }
 
 
-
+#title{
+  color: #fff;
+}
 
 
 
@@ -433,15 +435,15 @@ font-size: 16px;
 }
 
 .play-img,.image1{
-    width: 98%;
+    width: 80%;
  }
  
  .inner-img .image2{
-     width:60% ;
-     height:30vh ;
-      position: absolute;
+     width:25% ;
+     height:20vh ;
+     position: absolute;
      bottom: -50px;
-     left: -120px ;
+     left: -25px ;
  
  }
  
@@ -542,11 +544,10 @@ font-size: 16px;
     font-size: 14px ;
  }
 
-
-
-
  .playcontainer{
+    margin:30px 40px;
     flex-direction:column;
+    padding: 40px;
   
   }
  .play-content{
@@ -557,15 +558,16 @@ font-size: 16px;
   
  }
 .play-img,.image1{
-      width:100%;
+      width:90%;
+      align-items: center;
    }
    
    .inner-img .image2{
-       width:60% ;
+       width:30% ;
        height:30vh ;
         position: absolute;
-       bottom: -50px;
-       left: -120px ;
+        bottom: -50px;
+       left: -50px ;
    
    } 
  
