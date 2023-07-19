@@ -289,7 +289,6 @@ nav{
 
 /* style footer-section  */
 .footer-section{
-    margin: 0 auto;
     max-width:1600px;
     min-height: 50px;
     background-color: #0B0223;
@@ -299,15 +298,48 @@ nav{
 #title{
   color: #fff;
 }
+.footer-container{
+    color:white;
+    justify-self: center;
+    text-align: center;
+    padding: 20px;
+}
+.footer-title{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 800;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+}
 
+.story{
+    padding-bottom:30px;
+    gap: 30px;
 
+}
+.story span{
+    padding: 25px;
+}
+.items4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.social-media img{
+    width:40px;
+    height: 30px;
+    text-align: center;
+    padding-bottom:12px;
+}
 
-
-
-
-
-
-
+.items4 span{
+    padding: 30px;
+}
+.play{
+    font-size: 12px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -446,7 +478,52 @@ font-size: 16px;
      left: -25px ;
  
  }
- 
+ /* responsive  footer-section  */
+/* style footer-section  */
+.footer-section{
+    max-width:1600px;
+    min-height: 50px;
+    background-color: #0B0223;
+   
+}
+
+
+#title{
+  color: #fff;
+}
+.footer-container{
+    flex-wrap:wrap;
+    padding: 20px;
+}
+
+div >ul {
+    font-size:20px;
+   flex-wrap: wrap;
+
+}
+
+/* div li{
+    padding: 30px;
+    
+} */
+
+.items{
+    padding: 30px;
+}
+
+span .play{
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding:20px;
+}
+
+#part2::before{
+    content: "\a";
+    white-space: pre;
+  
+}
+
+
 
 
 }
@@ -570,5 +647,14 @@ font-size: 16px;
        left: -50px ;
    
    } 
- 
+
+   
+
+.footer-container{
+
+    padding: 20px;
+}
+.footer-title{
+    gap:10px
+}
  }
