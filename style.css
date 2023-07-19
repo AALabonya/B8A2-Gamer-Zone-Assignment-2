@@ -282,61 +282,7 @@ nav{
     left: -120px ;
 
 }
-
 /*end  style Play Instantly No Downloads No Installs */
-
-.main-container{
-    margin:90px auto;
-    max-width: 1200px;
-    min-width: 50px;
-  
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-
-.gaming{
-    display: flex;
-    padding:  20px;
-    gap:20px
-}
-.zone-1{
-display:flex;
- align-items: center;
-width: 290px;
-height:68px;
-border-radius: 50px;
-gap:10px;
-}
-.title-bar{
-    font-size:15px;
-}
-
-.gaming-2{
-    display: flex;
-    padding: 20px;
-    gap:40px
-}
-.zone-2{
-    display:flex;
-     align-items: center;
-    width: 280px;
-    height:68px;
-    border-radius: 50px;
-    gap:10px;
-    }
-
-.zone-1:hover{
-    border:3px solid red;
-}
-.zone-2:hover{
-    border:3px solid red;
-}
-
-.title-bar:hover{
-    
-    color:rgb(99, 5, 20);
-}
-
-
 
 
 /* style footer-section  */
@@ -394,9 +340,9 @@ gap:10px;
 }
 
 
+/* end footer section */
 
-
-/* mobile device responsive */
+/* --------------mobile device responsive----- */
 
 @media screen and (max-width:576px){
     .nav-container{
@@ -528,10 +474,13 @@ font-size: 16px;
      position: absolute;
      bottom: -50px;
      left: -25px ;
- 
- }
+    }
+   
+
+
+
+
  /* responsive  footer-section  */
-/* style footer-section  */
 .footer-section{
     max-width:1600px;
     min-height: 50px;
@@ -554,10 +503,6 @@ div >ul {
 
 }
 
-/* div li{
-    padding: 30px;
-    
-} */
 
 .items{
     padding: 30px;
@@ -576,8 +521,6 @@ span .play{
 }
 
 
-
-
 }
 
 
@@ -585,6 +528,7 @@ span .play{
 
 
     /* medium screen or tab device responsive */
+
 
 @media screen and (min-width:576px) and (max-width:992px){
     .nav-container{
@@ -700,7 +644,7 @@ span .play{
    
    } 
 
-   
+   /* footer responsive  */
 
 .footer-container{
 
@@ -709,4 +653,11 @@ span .play{
 .footer-title{
     gap:10px
 }
+
+
  }
+
+
+ 
+
+ /* end responsive */
