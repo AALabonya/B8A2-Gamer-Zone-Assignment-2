@@ -289,13 +289,13 @@ nav{
     margin:90px auto;
     max-width: 1200px;
     min-width: 50px;
-    border:1px solid red;
+  
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .gaming{
     display: flex;
-    padding:  20px 10px 10px;
+    padding:  20px;
     gap:20px
 }
 .zone-1{
@@ -305,7 +305,6 @@ width: 290px;
 height:68px;
 border-radius: 50px;
 gap:10px;
-border: 1px solid green;
 }
 .title-bar{
     font-size:15px;
@@ -313,7 +312,7 @@ border: 1px solid green;
 
 .gaming-2{
     display: flex;
-    padding:  20px 10px 10px;
+    padding: 20px;
     gap:40px
 }
 .zone-2{
@@ -323,8 +322,21 @@ border: 1px solid green;
     height:68px;
     border-radius: 50px;
     gap:10px;
-    border: 1px solid green;
     }
+
+.zone-1:hover{
+    border:3px solid red;
+}
+.zone-2:hover{
+    border:3px solid red;
+}
+
+.title-bar:hover{
+    
+    color:rgb(99, 5, 20);
+}
+
+
 
 
 /* style footer-section  */
